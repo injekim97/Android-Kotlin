@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">catholic_project</string>
+    <string name="qr">해당 범위안에 QR 코드를 보여주세요</string>
+</resources>
