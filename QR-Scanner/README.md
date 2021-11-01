@@ -1,4 +1,5 @@
-# QR-Scanner
+# Android-Kotlin > QR-Scanner    
+
 
 * 2021.09.30
 -> 가톨릭대학교 프로젝트를 위한 QR-Scanner(github에 올려진 QR-Scanner 이용)   
