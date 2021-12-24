@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_detail_Activity">
+
+    <TextView
+        android:id="@+id/menu_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="menu_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        app:layout_constraintStart_toStartOf="@+id/menu_tv"
+        app:layout_constraintTop_toBottomOf="@+id/menu_tv" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/cnt_down"
+        app:layout_constraintEnd_toStartOf="@+id/cnt_up"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toEndOf="@+id/cnt_down"
+        app:layout_constraintTop_toTopOf="@+id/cnt_up"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <Button
+        android:id="@+id/cnt_down"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#000000"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/addTocart_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cnt_up"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#000000"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="@+id/cnt_down"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/addTocart_btn"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#000000"
+        android:text="Add To Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
