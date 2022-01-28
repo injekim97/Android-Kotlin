@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bluetooth API - Kotlin</string>
+    <string name="bluetooth_on">Bluetooth ON</string>
+    <string name="display_paired_bounded_devices">Display Paired/Bounded DEVICES</string>
+    <string name="bluetooth_off">Bluetooth OFF</string>
+    <string name="todo">TODO</string>
+</resources>

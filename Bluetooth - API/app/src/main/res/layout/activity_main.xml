@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/bluetoothStatusTv"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text=""-->
+    <!--        android:padding="5dp"-->
+    <!--        android:textColor="#000"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!-- 이미지 경로 설정-->
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/discoverableBtn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        style="@style/Widget.AppCompat.Button.Colored"-->
+    <!--        android:text="Bluetooth Discoverable"-->
+    <!--        android:minWidth="200dp"/>-->
+
+
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/bluetooth" />
+
+    <Button
+        android:id="@+id/btnBluetoothOn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="@string/bluetooth_on" />
+
+    <Button
+        android:id="@+id/btnBluetoothOff"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="@string/bluetooth_off" />
+
+    <Button
+        android:id="@+id/btnBluetoothPaired"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="300dp"
+        android:text="@string/display_paired_bounded_devices" />
+
+
+</LinearLayout>
