@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/icon_wifi"
+        android:layout_width="138dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/wifi"
+        app:layout_constraintBottom_toTopOf="@+id/btnwifion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnwifion"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="469dp"
+        android:text="@string/wifi_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_wifi" />
+
+    <Button
+        android:id="@+id/btnwifioff"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:text="@string/wifi_off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnwifion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

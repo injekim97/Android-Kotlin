@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WIFI - API</string>
+    <string name="wifi_off">WIFI OFF</string>
+    <string name="wifi_on">WIFI ON</string>
+    <string name="todo">TODO</string>
+</resources>
